@@ -1,7 +1,7 @@
 {
   "name": "hw2",
   "version": "0.1.0",
-  "homepage": "https://Nasibeh20.github.io/HW1",
+  "homepage": "http://Nasibeh20.github.io/CS529-HW1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
