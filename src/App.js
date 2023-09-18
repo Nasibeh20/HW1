@@ -88,7 +88,8 @@ function App() {
               >
                 {'Gun Deaths'}
               </div>
-              <div style={{'height': 'calc(100% - 2em)','width': '50%','maxWidth': '60em','marginLeft':'25%'}}>
+              {/* <div style={{'height': 'calc(100% - 2em)','width': '50%','maxWidth': '60em','marginLeft':'25%'}}> */}
+              <div style={{'height': 'calc(100% - 2em)','width': '100%','maxWidth': '60em','marginLeft':'15%'}}>
                 <WhiteHatStats
                   data={gunData}
                   ToolTip={ToolTip}
