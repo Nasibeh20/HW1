@@ -16,4 +16,6 @@ https://www.slate.com/articles/news_and_politics/crime/2012/12/gun_death_tally_e
 4.	Deploying a react app into github:
 https://www.geeksforgeeks.org/deployment-of-react-application-using-github-pages/
 
+## Screenshots
+![image](https://github.com/Nasibeh20/HW1/assets/143843088/a8300118-d828-437c-8936-5496766dcc4d)
 
