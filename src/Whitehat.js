@@ -147,21 +147,19 @@ export default function Whitehat(props) {
                 svg.selectAll('.legendText').remove();
                 const legendTitle = {
                     'x': legendX - barWidth - 7,
-                    'y': legendY + 10,
+                    'y': bounds.y + 10 * barHeight + 170,
                     'text': '<10 per 100K'
                 }
-                
                 const legendFirstTitle = {
                     'x': legendX - barWidth - 7,
-                    'y': legendY - barWidth - 180,
+                    'y': bounds.y + 135,
                     'text': '>2 per 100K'
                 }
                 const legendBannerTitle = {
-                    'x': legendX - barWidth - 15,
-                    'y': legendY - barWidth - 205,
-                    'text': 'rate (per 100000 people)'
+                    'x': legendX - barWidth - 12,
+                    'y': bounds.y + 115,
+                    'text': 'rate (per 100000 people)',
                 }
-
                 svg.selectAll('.legendText')
                     .data([legendTitle, legendFirstTitle, legendBannerTitle].concat(colorLData)).enter()
                     .append('text').attr('class', 'legendText')
